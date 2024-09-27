@@ -1,0 +1,42 @@
+            body {
+                background-color: rgb(177, 177, 177);
+            }
+            h1 {
+                background-color: aqua;
+                padding: 1em;
+                font-size: 30px;
+                border-radius: 2em;
+                border: 10px;
+                width: fit-content;
+                margin-inline: 10px;
+                text-align: center;
+            }
+            nav {
+                background-color: rgb(136, 136, 197);
+                padding: 1em;
+                border: 1em;
+                margin: 1em;
+                border-radius: 1em;
+                border-color: rgb(0, 0, 0);
+            }
+            div {
+                background-color: rgb(7, 199, 7);
+                padding: 1em;
+                border-radius: 12px;
+                margin: 1em;
+                border: 1em;
+                width: fit-content;
+            }
+            #xaritoni{
+                background-color:rgba(17, 31, 71, 0.603);
+            }
+            #niko{
+                background-color: rgb(42, 165, 138);
+            }
+            #mato{
+                background-color: rgb(170, 120, 26);
+                height: 100 vh;
+                overflow-x: hidden;
+                overflow-y: scroll;
+
+            }

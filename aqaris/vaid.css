@@ -1,0 +1,16 @@
+body {
+    background-image: url("../image1/images.jpg"), url("../image1/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg");
+    background-repeat: no-repeat, repeat;
+    background-attachment: local;
+    background-position: center;
+    background-clip: border-box;
+}
+P {
+    background-image: url("../image1/199fd29184c6cff24e3445f849af463e.gif");
+    background-clip: border-box;
+    width: fit-content;
+    border-radius: 12px;
+}
+h1 {
+    text-align: center;
+}

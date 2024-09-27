@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <style>
+             div, span {
+                background-color: red;
+                border: 1px solid black;
+            }
+            .inlineblock {
+                display: inline-block;
+            }
+            .flexcontainer {
+                all: unset;
+                background-color: bisque;
+                display: flex;
+                height: 600px;
+                align-items: flex-start; 
+            }
+            .flexcontainer > * {
+               flex-basis: 90px;
+               flex-grow: 1;
+               flex-shrink: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <body>  
+            <div class="flexcontainer">            
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+
+                <div class="inlineblock">7</div>
+                <div class="inlineblock">8</div>
+                <div class="inlineblock">9</div>
+            </div>
+            </body>
+    </body>
+</html>
